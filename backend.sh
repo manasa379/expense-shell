@@ -13,7 +13,7 @@ echo Add Application User
 useradd expense >>$log_file
 
 echo Clean App Content
-rm  -rf /app  >>$log_log_file
+rm  -rf /app  >>$log_file
 mkdir /app
 
 echo Download App Content
